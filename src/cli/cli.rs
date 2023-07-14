@@ -480,8 +480,7 @@ pub fn build_cli() -> Command<'static> {
         )
         .subcommand(
             Command::new("colorcheck")
-                .about("Check if your terminal emulator supports 24-bit colors.")
-                .hide(true),
+                .about("Check if your terminal emulator supports 24-bit colors."),
         )
         .subcommand(
             Command::new("sort-by-binary-operation")
